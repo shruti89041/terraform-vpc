@@ -9,3 +9,8 @@ variable "AMI" {
         us-east-1 = "ami-080e1f13689e07408"
     }
 }
+
+variable "KEY_NAME" {
+
+    default = "my-keypair"
+}
